@@ -4,6 +4,8 @@ default["apache"]["sites"]["venkata-yaparla4b"]= {"site_title" => "kumar is here
 
 default["apache"]["sites"]["venkata-yaparla5"] = { "site_title" => "sai here","port" => 80, "domain" => "venkata-yaparla5.mylabserver.com"}
 
+default["author"]["name"] = "sai"
+
 case node["platform"]
   when "centos"
         default["apache"]["package"] = "httpd"
